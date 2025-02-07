@@ -46,6 +46,7 @@ function PastOrdersRoute() {
           Previous
         </button>
         <div>{page}</div>
+
         <button disabled={data.length < 10} onClick={() => setPage(page + 1)}>
           Next
         </button>
